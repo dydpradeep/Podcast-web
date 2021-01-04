@@ -59,7 +59,9 @@ section p {
   width: calc(1152px - 200px);
   top: 28px;
 }
-
+.logo {
+  max-width: 30%;
+}
 .desktop-nav .menu-items {
   display: flex;
   list-style: none;
@@ -125,7 +127,7 @@ a.btn.cyan:hover {
 /* Hero Section */
 
 .hero-container {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -171,14 +173,14 @@ a.btn.cyan:hover {
   position: absolute;
   z-index: -1;
   top: 100px;
-  left: 240px;
+  left: 350px;
 }
 
 .hero-container .polygon2 {
   position: absolute;
   z-index: -1;
-  top: 180px;
-  left: 480px;
+  top: 170px;
+  left: 700px;
 }
 
 .hero-container .polygon3 {
@@ -358,6 +360,7 @@ section h2::after {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px 18px;
   margin-bottom: 42px;
+  text-align: center;
 }
 
 .projects-gallery img {
@@ -365,6 +368,9 @@ section h2::after {
   object-fit: cover;
 }
 
+.links-section h2 {
+  top: 0px;
+}
 /* Testimonials Section */
 
 .slide-container {
@@ -397,6 +403,10 @@ section h2::after {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
   border-radius: 50%;
   cursor: pointer;
+}
+.desktop-nav .logo img {
+  height: 50px;
+  shape-margin: 30px;
 }
 
 .slider-next {
